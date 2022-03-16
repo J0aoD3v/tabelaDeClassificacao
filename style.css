@@ -1,0 +1,92 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://uploads.emaisgoias.com.br/2021/06/9d1cb142-carros-3.png");
+  background-color: #111;
+  background-size: cover;
+}
+
+button {
+  border-radius: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  padding: 5px;
+  transition: transform 0.3s;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#adiciona,
+#zerar,
+#reset {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  transition: transform 0.3s;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+input {
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  padding: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 2px 2px black;
+  box-shadow: 1px 1px 1px black, 1px 1px 1px black;
+}
